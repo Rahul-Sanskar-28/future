@@ -4,7 +4,7 @@ public class PrimeDigitCount {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Input
+        
         System.out.print("Enter any number: ");
         int num = sc.nextInt();
 
@@ -23,7 +23,7 @@ public class PrimeDigitCount {
             n /= 10; // remove last digit
         }
 
-        // Output
+        
         System.out.println("Number of prime digits in the entered number is " + count);
 
         sc.close();

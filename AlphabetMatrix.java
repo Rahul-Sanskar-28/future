@@ -1,8 +1,8 @@
 public class AlphabetMatrix {
     public static void main(String[] args) {
-        int rows = 3; // Number of rows
-        int cols = 3; // Number of columns
-        char ch = 'A'; // Starting character
+        int rows = 3; 
+        int cols = 3; 
+        char ch = 'A'; 
 
         for (int i = 1; i <= rows; i++) {
             for (int j = 1; j <= cols; j++) {

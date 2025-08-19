@@ -40,7 +40,7 @@ public class MatrixStats5x5 {
             System.out.println();
         }
 
-        // Results
+        
         System.out.println("\nBiggest element: " + biggest);
         System.out.println("Smallest element: " + smallest);
         System.out.println("Sum of elements: " + sum);

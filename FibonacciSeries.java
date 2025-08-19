@@ -4,7 +4,7 @@ public class FibonacciSeries {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Accept upper bound from user
+        
         System.out.println("Enter the upper bound number to generate the Fibonacci numbers:");
         int n = sc.nextInt();
 

@@ -4,7 +4,7 @@ public class HarmonicSeriesSum {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Accept n from user
+        
         System.out.println("Enter a number n:");
         int n = sc.nextInt();
 
@@ -15,7 +15,7 @@ public class HarmonicSeriesSum {
             sum += 1.0 / i;
         }
 
-        // Display result
+        
         System.out.println("The sum of the series 1 + 1/2 + 1/3 + ... + 1/" + n + " is: " + sum);
 
         sc.close();

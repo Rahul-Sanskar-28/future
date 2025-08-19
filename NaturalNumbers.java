@@ -4,7 +4,7 @@ public class NaturalNumbers {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Accept N from user
+        
         System.out.println("Enter the number of natural numbers to be generated:");
         int N = sc.nextInt();
 

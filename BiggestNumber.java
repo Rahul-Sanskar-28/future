@@ -4,7 +4,7 @@ public class BiggestNumber {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Input three numbers
+        
         System.out.print("Enter the 1st number num1:\n");
         int num1 = sc.nextInt();
 
@@ -14,7 +14,7 @@ public class BiggestNumber {
         System.out.print("Enter the 3rd number num3:\n");
         int num3 = sc.nextInt();
 
-        // Find biggest
+        
         int biggest;
         if (num1 >= num2 && num1 >= num3) {
             biggest = num1;
@@ -24,7 +24,7 @@ public class BiggestNumber {
             biggest = num3;
         }
 
-        // Output
+        
         System.out.println("The biggest of the 3 numbers entered is: " + biggest);
 
         sc.close();

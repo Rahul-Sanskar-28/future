@@ -4,7 +4,7 @@ public class PrimeNumbersInRange {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Accept lower and upper bounds
+        // Input lower and upper bounds
         System.out.println("Enter the lower bound value:");
         int lower = sc.nextInt();
 

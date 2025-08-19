@@ -4,7 +4,7 @@ public class OddSeriesSum {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Accept n from user
+        
         System.out.println("Enter a number n:");
         int n = sc.nextInt();
 
@@ -18,7 +18,7 @@ public class OddSeriesSum {
             sum += i;
         }
 
-        // Display sum
+        
         System.out.println("\nThe sum of the numbers in the series is: " + sum);
 
         sc.close();

@@ -4,7 +4,7 @@ public class ReverseNumber {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Input
+        
         System.out.print("Enter any number: ");
         int num = sc.nextInt();
 
@@ -23,7 +23,7 @@ public class ReverseNumber {
             reverse = -reverse;
         }
 
-        // Output
+        
         System.out.println("Reverse of the entered number is " + reverse);
 
         sc.close();

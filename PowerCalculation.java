@@ -4,7 +4,7 @@ public class PowerCalculation {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Input
+        
         System.out.print("Enter base number (m): ");
         int m = sc.nextInt();
         System.out.print("Enter exponent (n): ");
@@ -26,7 +26,7 @@ public class PowerCalculation {
             exponent--;
         }
 
-        // Output
+        
         System.out.println(m + "^" + n + " = " + result);
 
         sc.close();

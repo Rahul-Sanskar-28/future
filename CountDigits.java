@@ -4,7 +4,7 @@ public class CountDigits {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Input
+        
         System.out.print("Enter any number: ");
         int num = sc.nextInt();
 
@@ -22,7 +22,7 @@ public class CountDigits {
             }
         }
 
-        // Output
+        
         System.out.println("The number of digits in the entered number is " + count);
 
         sc.close();

@@ -4,7 +4,7 @@ public class VowelConsonantSwitch {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Input
+        
         System.out.print("Enter a character: ");
         char ch = sc.next().toLowerCase().charAt(0); // take lowercase for simplicity
 

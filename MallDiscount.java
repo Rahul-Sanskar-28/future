@@ -4,7 +4,7 @@ public class MallDiscount {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Input billing amount
+        
         System.out.print("Enter the bill amount:\n");
         double billAmount = sc.nextDouble();
 
@@ -23,7 +23,7 @@ public class MallDiscount {
 
         double netAmount = billAmount - discount;
 
-        // Display results
+        
         System.out.println("Thank you! Your total bill amount is Rs " + billAmount +
                            ", discount is Rs " + discount +
                            " and net amount payable is Rs " + netAmount + ".");

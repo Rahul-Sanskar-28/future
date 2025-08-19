@@ -4,7 +4,7 @@ public class IncrementDigits {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Input
+        
         System.out.print("Enter a five digit number: ");
         int num = sc.nextInt();
 
@@ -21,7 +21,7 @@ public class IncrementDigits {
                 result.append(digit);
             }
 
-            // Output
+            
             System.out.println("Output: " + result.toString());
         }
 

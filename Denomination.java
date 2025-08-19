@@ -4,7 +4,7 @@ public class Denomination {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Input
+        
         System.out.print("Enter a four digit number: ");
         int num = sc.nextInt();
 
@@ -19,7 +19,7 @@ public class Denomination {
             int d3 = (n / 10) % 10;     // tens place
             int d4 = n % 10;            // ones place
 
-            // Output denomination
+            
             System.out.println(d1 + " * 1000 = " + (d1 * 1000));
             System.out.println(d2 + " * 100  = " + (d2 * 100));
             System.out.println(d3 + " * 10   = " + (d3 * 10));

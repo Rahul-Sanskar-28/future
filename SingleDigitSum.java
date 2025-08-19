@@ -4,7 +4,7 @@ public class SingleDigitSum {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Input
+        
         System.out.print("Enter any number: ");
         int num = sc.nextInt();
 
@@ -21,7 +21,7 @@ public class SingleDigitSum {
             n = sum; // update number with sum
         }
 
-        // Output
+        
         System.out.println("Single digit sum is: " + n);
 
         sc.close();

@@ -4,7 +4,7 @@ public class SportsClub {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Input details
+        
         System.out.print("Enter the name:\n");
         String name = sc.nextLine();
 
@@ -22,7 +22,9 @@ public class SportsClub {
         }
 
         // If eligible
-        System.out.println("Congratulations " + name + " for your successful registration.");
+        System.out.println("Congratulations, " + name + "!");
+        System.out.println("Your membership registration is successful.");
+        System.out.println("Registered mobile number: " + mobile);
 
         sc.close();
     }
